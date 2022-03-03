@@ -1,0 +1,120 @@
+@media screen and (max-width:1000px) {
+    .header__container-left-search-bar{
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+    .header__container-left-search-bar-ico{
+        position: static;
+    }
+
+    .header__container-right-container-ico{
+        margin: 0 20px;
+    }
+
+    .header__container-right-logo{
+        margin: 0 20px 0 40px;
+    }
+
+    #burger_menu-active{
+        margin: 0 20px;
+    }
+
+    .header__container-left{
+        width: 5em;
+    }
+    .header__container-right{
+        width: 90em;
+    }
+    .header__container{
+        padding: 0px;
+    }
+}
+
+@media  screen and (max-width: 588px) {
+    .header__container-right-korzina{
+        width: 35px;
+        height: 35px;
+    }
+    .header__container-right-profile{
+        width: 35px;
+        height: 35px;
+    }
+    .header__container-right-container-ico{
+        width: 85px;
+        margin: 0 10px 0 0px;
+    }
+
+    .header__container-right-logo{
+        margin: 0 10px 0 10px;
+    }
+}
+
+@media  screen and (min-width: 1000px) {
+    .burgermenu__container-search{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .header__container-left-search-bar-ico{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .header__container-right-cam-ico{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .header__container-right-container-ico{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    .header__container-right-logo{
+        margin: 0 auto;
+    }
+
+    .header__container-right{
+        width: 100px;
+    }
+
+    .burgermenu__container-goods-content{
+        display: block;
+    }
+
+    .burgermenu__container-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .burgermenu__container-search{
+        max-width: 70%;
+    }
+    .burgermenu__container-text{
+        font-size: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+        float: left;
+        margin-top: 20px;
+    }
+
+    .container__product-nav-link{
+        font-size: calc(9px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    .burgermenu__container{
+        padding: 0;
+        height: 1000px;
+    }
+}
+
+@media  screen and (max-width: 1250px) {
+    .container__product-wraper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
