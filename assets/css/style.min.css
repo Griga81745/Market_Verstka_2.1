@@ -298,47 +298,48 @@ li:hover {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-left: 21px;
 }
 
 .slider_product-image-container {
-  width: 400px;
-  height: 400px;
+  width: 488px;
+  height: 440px;
   border: 1px solid red;
 }
 
 .slider-image-show1{
-  background-image: url("../img/base/main-sumka1.png");
+  background-image: url("../img/base/main-sumka-1-big.png");
   background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
+  width: 488px;
+  height: 440px;
 }
 
 .slider-image-show2{
-  background-image: url("../img/base/main-sumka2.png");
+  background-image: url("../img/base/main-sumka-2-big.png");
   background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
+  width: 488px;
+  height: 440px;
 }
 
 .slider-image-show3{
-  background-image: url("../img/base/main-sumka3.png");
+  background-image: url("../img/base/main-sumka-3-big.png");
   background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
+  width: 488px;
+  height: 440px;
 }
 
 .slider-image-show4{
-  background-image: url("../img/base/main-sumka3.png");
+  background-image: url("../img/base/main-sumka-3-big.png");
   background-repeat: no-repeat;
-  width: 455px;
-  height: 407px;
+  width: 488px;
+  height: 440px;
 }
 
 .slider-image-show5{
-  background-image: url("../img/base/main-sumka4.png");
+  background-image: url("../img/base/main-sumka-4-big.png");
   background-repeat: no-repeat;
-  width: 455px;
-  height: 407px;
+  width: 488px;
+  height: 440px;
 }
 
 
